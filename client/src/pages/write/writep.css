@@ -1,0 +1,176 @@
+.write {
+  padding-top: 50px;
+}
+*{
+  font-family: "Lora", serif;
+}
+.ptxt textarea{
+  padding-top: 10px;
+  padding-left: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  height: 50vh;
+}
+.writeImg {
+  margin-left: 150px;
+  width: 70vw;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.icons{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  /* column-gap: 10px; */
+  height: 20vh;
+  background-color: #FAF3E3;
+  margin-left: 5px;
+  align-self: start;
+}
+.area{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.room{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.area input{
+ padding: 7px;
+  margin-left: 20px; 
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border:none;
+  outline: none;
+}
+.room input{
+  width: 20px;
+  padding: 7px;
+  /* margin-left: 2px; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border: none;
+  outline: none;
+}
+
+.input-price,.email{
+  padding: 24px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  /* padding-left: 3px; */
+  align-items: center;
+  /* background-color:#9ba47b; */
+}
+.email{
+ margin-top: 10px;
+}
+input ::placeholder{
+  color: rgb(189, 185, 185);
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.input-price input, .email input{
+  border-style: solid;
+  border-color: rgb(59, 34, 8);
+  margin-left: 20px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  outline: none;
+  padding: 7px;
+}
+.details{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 60vh;
+  width:73vw;
+  margin-left: 150px;
+  flex-direction: column;
+  border: 1px;
+}
+.ptxt{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20vh;
+  
+}
+.ptxt textarea{
+  width: 50vw;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+}
+.writeForm {
+  position: relative;
+}
+.price-email{
+  display: flex;
+  flex-direction: column;
+}
+label{
+  background-color: white;
+  padding-top: 24px;
+  padding-bottom: 27px;
+  padding-left: 10px;
+}
+.writeFormGroup {
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+}
+.writeIcon {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 50%;
+  color: rgb(129, 125, 125);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.writeInput {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width: 67vw;
+}
+
+.writeInput::placeholder {
+  color: rgb(189, 185, 185);
+  font-weight: 400;
+}
+
+.writeInput:focus {
+  outline-style: none;
+}
+
+.writeText {
+  width: 70vw;
+  height: 5vh;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.writeSubmit {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  color: white;
+  background-color: #9ba47b;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}

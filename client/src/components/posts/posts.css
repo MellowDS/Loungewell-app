@@ -1,0 +1,21 @@
+/* .posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    flex-direction: column;
+    row-gap: 45px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+} */
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 7;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin: 20px;
+    flex-direction: row;
+}
+
